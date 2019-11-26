@@ -1,0 +1,2686 @@
+Script started on Tue Nov 26 16:36:37 2019
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash: parse_git_branch: command not found
+[?1034h]2;swdecker@Stevens-MacBook-Pro[[37;44;1m16:36:39[0m][0;31m [0;32mreact-container-components-lab-austin-web-091619
+[0;34m//[0;31m ♥ [0mlearn test
+
+[0m[0m
+(node:2099) [DEP0016] DeprecationWarning: 'root' is deprecated, use 'global'
+[0m  <LatestMovieReviewsContainer />[0m
+  [32m  ✓[0m[90m should have state[0m
+  [32m  ✓[0m[90m should have a state property "reviews"[0m
+  [32m  ✓[0m[90m should have top-level element with class "latest-movie-reviews"[0m
+  [32m  ✓[0m[90m should fetch data from the New York Times API[0m
+Warning: Each child in a list should have a unique "key" prop.
+
+Check the render method of `MoviewReviews`. See https://fb.me/react-warning-keys for more information.
+    in Movie (created by MoviewReviews)
+    in MoviewReviews (created by LatestMovieReviewsContainer)
+    in div (created by LatestMovieReviewsContainer)
+    in LatestMovieReviewsContainer (created by WrapperComponent)
+    in WrapperComponent
+  [32m  ✓[0m[90m should render reviews after reviews state updated[0m[33m (38ms)[0m
+
+[0m  <MovieReviews />[0m
+Warning: Each child in a list should have a unique "key" prop.
+
+Check the top-level render call using <div>. See https://fb.me/react-warning-keys for more information.
+    in Movie
+  [32m  ✓[0m[90m should be a stateless functional component[0m
+  [32m  ✓[0m[90m should have a top-level component with class "review-list"[0m
+  [31m  1) should render all the reviews[0m
+
+[0m  <SearchableMovieReviewsContainer />[0m
+  [32m  ✓[0m[90m should have state[0m
+  [32m  ✓[0m[90m should have the state properties "reviews" and "searchTerm"[0m
+  [32m  ✓[0m[90m should fetch data from the New York Times API on form submission[0m
+  [32m  ✓[0m[90m should render reviews after reviews state updated[0m
+
+
+[92m [0m[32m 11 passing[0m[90m (148ms)[0m
+[31m  1 failing[0m
+
+[0m  1) <MovieReviews />
+       should render all the reviews:
+
+      [31mAssertionError: expected 0 to equal 3[0m
+      [32m+ expected[0m [31m- actual[0m
+
+      [31m-0[0m
+      [32m+3[0m
+      [0m[90m
+      at Context.<anonymous> (test/MovieReviews_test.js:45:47)
+      at processImmediate (internal/timers.js:439:21)
+[0m
+
+
+[
+  {
+    display_title: [32m'63 Up'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'Manohla Dargis'[39m,
+    headline: [32m'‘63 Up’ Review: Time Keeps on Slippin’, Slippin’, Slippin’'[39m,
+    summary_short: [32m'Michael Apted revisits the people who have grown up, and grown older, in this long-running, landmark documentary series.'[39m,
+    publication_date: [32m'2019-11-26'[39m,
+    opening_date: [32m'2019-11-27'[39m,
+    date_updated: [32m'2019-11-26 20:04:03'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/26/movies/63-up-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of 63 Up'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/27/arts/63up1/63up1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Queen & Slim'[39m,
+    mpaa_rating: [32m'R'[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘Queen & Slim’ Review: Love on the Run'[39m,
+    summary_short: [32m'Daniel Kaluuya and Jodie Turner-Smith star in Melina Matsoukas’s dreamy but intense outlaw romance.'[39m,
+    publication_date: [32m'2019-11-26'[39m,
+    opening_date: [32m'2019-11-27'[39m,
+    date_updated: [32m'2019-11-26 17:46:03'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/26/movies/queen-and-slim-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Queen & Slim'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/26/arts/26QUEENANDSLIM/26QUEENANDSLIM-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'The Two Popes'[39m,
+    mpaa_rating: [32m'PG-13'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘The Two Popes’ Review: Double Act at the Vatican'[39m,
+    summary_short: [32m'Jonathan Pryce (as the future Pope Francis) and Anthony Hopkins (as the outgoing Pope Benedict) star in a study of faith, friendship and power.'[39m,
+    publication_date: [32m'2019-11-26'[39m,
+    opening_date: [32m'2019-12-20'[39m,
+    date_updated: [32m'2019-11-26 16:26:03'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/26/movies/the-two-popes-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of The Two Popes'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/26/arts/26twopopes1/merlin_164868870_dff825f4-c0c9-4de0-8c97-3e1eefbff8cb-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Varda by Agnès'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘Varda by Agnès’ Review: A Final Visit With an Irreplaceable Filmmaker'[39m,
+    summary_short: [32m'In her last film, Agnès Varda sums up a six-decade career.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-20'[39m,
+    date_updated: [32m'2019-11-26 17:44:20'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/varda-by-agnes-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Varda by Agnès'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/22/arts/22AGNES-1/22AGNES-1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Hala'[39m,
+    mpaa_rating: [32m'R'[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'Jeannette Catsoulis'[39m,
+    headline: [32m'‘Hala’ Review: Girl, Disrupted'[39m,
+    summary_short: [32m'Geraldine Viswanathan is astonishingly resonant as a teenager testing the boundaries of faith, tradition and sexuality.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-12-06'[39m,
+    date_updated: [32m'2019-11-26 17:44:18'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/hala-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Hala'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/22/arts/hala1/merlin_164637675_c9e208fa-99b3-4bda-ba60-00f0c7e435b3-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Dark Waters'[39m,
+    mpaa_rating: [32m'PG-13'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Manohla Dargis'[39m,
+    headline: [32m'‘Dark Waters’ Review: The Killing Fields of West Virginia'[39m,
+    summary_short: [32m'In Todd Haynes’s latest, Mark Ruffalo plays a corporate defense lawyer who switches sides to defend a poisoned community.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-22'[39m,
+    date_updated: [32m'2019-11-26 17:44:20'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/dark-waters-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Dark Waters'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/22/arts/00dark-waters-1/00dark-waters-1-mediumThreeByTwo210-v2.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Bikram: Yogi, Guru, Predator'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Bilal Qureshi'[39m,
+    headline: [32m'‘Bikram: Yogi, Guru, Predator’ Review: The Toxic Man behind Yoga’s Hottest Trend'[39m,
+    summary_short: [32m'This unsettling expose about the founder of Bikram yoga is the opposite of a meditative reprieve.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-20'[39m,
+    date_updated: [32m'2019-11-21 19:10:02'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/bikram-yogi-guru-predator-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Bikram: Yogi, Guru, Predator'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/21/arts/21bikram/21bikram-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Frozen II'[39m,
+    mpaa_rating: [32m'PG'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Manohla Dargis'[39m,
+    headline: [32m'‘Frozen 2’ Review: The Cold Still Never Bothers Them'[39m,
+    summary_short: [32m'The sisters and sidekicks from “Frozen” reconvene for another adventure with storms of feeling and a new power ballad.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-22'[39m,
+    date_updated: [32m'2019-11-26 17:44:19'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/frozen-2-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Frozen II'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/20/arts/00frozen-1/00frozen-1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'A Beautiful Day In The Neighborhood'[39m,
+    mpaa_rating: [32m'PG'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘A Beautiful Day in the Neighborhood’ Review: You Are My Friend'[39m,
+    summary_short: [32m'Tom Hanks plays Mister Rogers, the beloved children’s television host, as he comes to the aid of a suffering magazine writer.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-22'[39m,
+    date_updated: [32m'2019-11-26 17:44:19'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/a-beautiful-day-in-the-neighborhood-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of A Beautiful Day In The Neighborhood'[39m
+    },
+    multimedia: [1mnull[22m
+  },
+  {
+    display_title: [32m'The Courier'[39m,
+    mpaa_rating: [32m'R'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Glenn Kenny'[39m,
+    headline: [32m'‘The Courier’ Review: Gary Oldman Plays Bad. The Movie Plays Worse.'[39m,
+    summary_short: [32m'This action thriller set in a parking garage with a female butt-kicking lead doesn’t even reach the level of watchable novelty.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-22'[39m,
+    date_updated: [32m'2019-11-21 12:04:03'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/the-courier-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of The Courier'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/21/arts/21courier/merlin_164638359_94134c6a-8225-403d-a88d-c42c0b8942f2-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m"Mr. Toilet: The World's #2 Man"[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Ben Kenigsberg'[39m,
+    headline: [32m'‘Mr. Toilet’ Review: Getting a Handle on the World’s Toilet Shortage'[39m,
+    summary_short: [32m'This profile of Jack Sim, an activist for toilet construction, is a more serious documentary than its title suggests.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-08'[39m,
+    date_updated: [32m'2019-11-26 17:44:18'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/mr-toilet-the-worlds-number-2-man-review.html'[39m,
+      suggested_link_text: [32m"Read the New York Times Review of Mr. Toilet: The World's #2 Man"[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/20/arts/mrtoilet1/mrtoilet1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'21 Bridges'[39m,
+    mpaa_rating: [32m'R'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Jeannette Catsoulis'[39m,
+    headline: [32m'‘21 Bridges’ Review: Catch Us if You Can'[39m,
+    summary_short: [32m'In this sturdy thriller, Chadwick Boseman plays a Manhattan detective on the hunt for two squirrelly cop killers.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-22'[39m,
+    date_updated: [32m'2019-11-26 17:44:18'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/21-bridges-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of 21 Bridges'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/19/arts/twenty1/twenty1-mediumThreeByTwo210-v2.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Shooting the Mafia'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Glenn Kenny'[39m,
+    headline: [32m'‘Shooting the Mafia’ Review: Crime Through a Watchful Lens'[39m,
+    summary_short: [32m'This documentary about the Sicilian photographer Letizia Battaglia is short on the whens and the hows of her story.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-26 17:44:17'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/shooting-the-mafia-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Shooting the Mafia'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/22/arts/00shootingthemafiapix/00shootingthemafiapix-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Waves'[39m,
+    mpaa_rating: [32m'R'[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'Manohla Dargis'[39m,
+    headline: [32m'‘Waves’ Review: The Shattering Ebb and Flow of Family Life'[39m,
+    summary_short: [32m'The writer-director Trey Edward Shults tells the story of a family held together by love and nearly undone by tragedy.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-26 17:44:16'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/waves-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Waves'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/14/arts/14waves1/14waves1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Atlantics'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘Atlantics’ Review: Haunted by Ghosts and Injustice in Senegal'[39m,
+    summary_short: [32m'Mati Diop’s Cannes prize winner is a potent mix of genres and moods.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-29'[39m,
+    date_updated: [32m'2019-11-26 17:44:15'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/atlantics-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Atlantics'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/14/arts/14ATLANTICS-1/merlin_164171868_ea0ff558-c936-41c5-9178-c542bd98697e-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Ford v Ferrari'[39m,
+    mpaa_rating: [32m'PG-13'[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘Ford v Ferrari’ Review: It’s a Gas'[39m,
+    summary_short: [32m'Matt Damon and Christian Bale star in James Mangold’s look back at the golden age of auto racing.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-26 17:44:14'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/ford-v-ferrari-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Ford v Ferrari'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/14/arts/14ford-ferrari1/14ford-ferrari1-mediumThreeByTwo210-v2.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'The Hottest August'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'Glenn Kenny'[39m,
+    headline: [32m'‘The Hottest August’ Review: Ordinary New Yorkers Facing Extreme Heat'[39m,
+    summary_short: [32m'The director draws on texts from Zadie Smith, Annie Dillard and Karl Marx for narration, but ospreys and a solar eclipse take more of a center stage.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-26 17:44:14'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/the-hottest-august-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of The Hottest August'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/15/arts/14hottestaugust/14hottestaugust-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Recorder: The Marion Stokes Project'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'Glenn Kenny'[39m,
+    headline: [32m'‘Recorder: The Marion Stokes Project’ Review: A VCR Obsession'[39m,
+    summary_short: [32m'Matt Wolf’s documentary shows how one woman captured history by recording television news. The results are compelling.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-26 17:44:13'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/recorder-the-marion-stokes-project-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Recorder: The Marion Stokes Project'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/15/arts/14record/14record-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'To Kid or Not to Kid'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Jeannette Catsoulis'[39m,
+    headline: [32m'‘To Kid or Not to Kid’ Review: Maybe, Baby'[39m,
+    summary_short: [32m'Maxine Trump’s deeply personal documentary explores the pros and cons of motherhood with candor and empathy.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-22 17:44:01'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/to-kid-or-not-to-kid-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of To Kid or Not to Kid'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/12/arts/tokid1/tokid1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Ernie & Joe: Crisis Cops'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Kristen Yoonsoo Kim'[39m,
+    headline: [32m'‘Ernie & Joe: Crisis Cops’ Review: Keeping Calm Is Their Secret Weapon'[39m,
+    summary_short: [32m'Jenifer McShane’s documentary introduces an empathetic method for policing.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-22 17:44:01'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/ernie-and-joe-crisis-cops-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Ernie & Joe: Crisis Cops'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/15/arts/15ERNIEANDJOE/merlin_164172612_ed123d02-c467-4f8d-a182-fcbb896c49af-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  }
+]
+[
+  {
+    display_title: [32m'63 Up'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'Manohla Dargis'[39m,
+    headline: [32m'‘63 Up’ Review: Time Keeps on Slippin’, Slippin’, Slippin’'[39m,
+    summary_short: [32m'Michael Apted revisits the people who have grown up, and grown older, in this long-running, landmark documentary series.'[39m,
+    publication_date: [32m'2019-11-26'[39m,
+    opening_date: [32m'2019-11-27'[39m,
+    date_updated: [32m'2019-11-26 20:04:03'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/26/movies/63-up-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of 63 Up'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/27/arts/63up1/63up1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Queen & Slim'[39m,
+    mpaa_rating: [32m'R'[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘Queen & Slim’ Review: Love on the Run'[39m,
+    summary_short: [32m'Daniel Kaluuya and Jodie Turner-Smith star in Melina Matsoukas’s dreamy but intense outlaw romance.'[39m,
+    publication_date: [32m'2019-11-26'[39m,
+    opening_date: [32m'2019-11-27'[39m,
+    date_updated: [32m'2019-11-26 17:46:03'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/26/movies/queen-and-slim-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Queen & Slim'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/26/arts/26QUEENANDSLIM/26QUEENANDSLIM-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'The Two Popes'[39m,
+    mpaa_rating: [32m'PG-13'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘The Two Popes’ Review: Double Act at the Vatican'[39m,
+    summary_short: [32m'Jonathan Pryce (as the future Pope Francis) and Anthony Hopkins (as the outgoing Pope Benedict) star in a study of faith, friendship and power.'[39m,
+    publication_date: [32m'2019-11-26'[39m,
+    opening_date: [32m'2019-12-20'[39m,
+    date_updated: [32m'2019-11-26 16:26:03'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/26/movies/the-two-popes-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of The Two Popes'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/26/arts/26twopopes1/merlin_164868870_dff825f4-c0c9-4de0-8c97-3e1eefbff8cb-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Varda by Agnès'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘Varda by Agnès’ Review: A Final Visit With an Irreplaceable Filmmaker'[39m,
+    summary_short: [32m'In her last film, Agnès Varda sums up a six-decade career.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-20'[39m,
+    date_updated: [32m'2019-11-26 17:44:20'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/varda-by-agnes-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Varda by Agnès'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/22/arts/22AGNES-1/22AGNES-1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Hala'[39m,
+    mpaa_rating: [32m'R'[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'Jeannette Catsoulis'[39m,
+    headline: [32m'‘Hala’ Review: Girl, Disrupted'[39m,
+    summary_short: [32m'Geraldine Viswanathan is astonishingly resonant as a teenager testing the boundaries of faith, tradition and sexuality.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-12-06'[39m,
+    date_updated: [32m'2019-11-26 17:44:18'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/hala-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Hala'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/22/arts/hala1/merlin_164637675_c9e208fa-99b3-4bda-ba60-00f0c7e435b3-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Dark Waters'[39m,
+    mpaa_rating: [32m'PG-13'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Manohla Dargis'[39m,
+    headline: [32m'‘Dark Waters’ Review: The Killing Fields of West Virginia'[39m,
+    summary_short: [32m'In Todd Haynes’s latest, Mark Ruffalo plays a corporate defense lawyer who switches sides to defend a poisoned community.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-22'[39m,
+    date_updated: [32m'2019-11-26 17:44:20'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/dark-waters-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Dark Waters'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/22/arts/00dark-waters-1/00dark-waters-1-mediumThreeByTwo210-v2.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Bikram: Yogi, Guru, Predator'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Bilal Qureshi'[39m,
+    headline: [32m'‘Bikram: Yogi, Guru, Predator’ Review: The Toxic Man behind Yoga’s Hottest Trend'[39m,
+    summary_short: [32m'This unsettling expose about the founder of Bikram yoga is the opposite of a meditative reprieve.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-20'[39m,
+    date_updated: [32m'2019-11-21 19:10:02'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/bikram-yogi-guru-predator-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Bikram: Yogi, Guru, Predator'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/21/arts/21bikram/21bikram-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Frozen II'[39m,
+    mpaa_rating: [32m'PG'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Manohla Dargis'[39m,
+    headline: [32m'‘Frozen 2’ Review: The Cold Still Never Bothers Them'[39m,
+    summary_short: [32m'The sisters and sidekicks from “Frozen” reconvene for another adventure with storms of feeling and a new power ballad.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-22'[39m,
+    date_updated: [32m'2019-11-26 17:44:19'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/frozen-2-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Frozen II'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/20/arts/00frozen-1/00frozen-1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'A Beautiful Day In The Neighborhood'[39m,
+    mpaa_rating: [32m'PG'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘A Beautiful Day in the Neighborhood’ Review: You Are My Friend'[39m,
+    summary_short: [32m'Tom Hanks plays Mister Rogers, the beloved children’s television host, as he comes to the aid of a suffering magazine writer.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-22'[39m,
+    date_updated: [32m'2019-11-26 17:44:19'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/a-beautiful-day-in-the-neighborhood-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of A Beautiful Day In The Neighborhood'[39m
+    },
+    multimedia: [1mnull[22m
+  },
+  {
+    display_title: [32m'The Courier'[39m,
+    mpaa_rating: [32m'R'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Glenn Kenny'[39m,
+    headline: [32m'‘The Courier’ Review: Gary Oldman Plays Bad. The Movie Plays Worse.'[39m,
+    summary_short: [32m'This action thriller set in a parking garage with a female butt-kicking lead doesn’t even reach the level of watchable novelty.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-22'[39m,
+    date_updated: [32m'2019-11-21 12:04:03'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/the-courier-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of The Courier'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/21/arts/21courier/merlin_164638359_94134c6a-8225-403d-a88d-c42c0b8942f2-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m"Mr. Toilet: The World's #2 Man"[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Ben Kenigsberg'[39m,
+    headline: [32m'‘Mr. Toilet’ Review: Getting a Handle on the World’s Toilet Shortage'[39m,
+    summary_short: [32m'This profile of Jack Sim, an activist for toilet construction, is a more serious documentary than its title suggests.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-08'[39m,
+    date_updated: [32m'2019-11-26 17:44:18'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/mr-toilet-the-worlds-number-2-man-review.html'[39m,
+      suggested_link_text: [32m"Read the New York Times Review of Mr. Toilet: The World's #2 Man"[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/20/arts/mrtoilet1/mrtoilet1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'21 Bridges'[39m,
+    mpaa_rating: [32m'R'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Jeannette Catsoulis'[39m,
+    headline: [32m'‘21 Bridges’ Review: Catch Us if You Can'[39m,
+    summary_short: [32m'In this sturdy thriller, Chadwick Boseman plays a Manhattan detective on the hunt for two squirrelly cop killers.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-22'[39m,
+    date_updated: [32m'2019-11-26 17:44:18'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/21-bridges-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of 21 Bridges'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/19/arts/twenty1/twenty1-mediumThreeByTwo210-v2.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Shooting the Mafia'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Glenn Kenny'[39m,
+    headline: [32m'‘Shooting the Mafia’ Review: Crime Through a Watchful Lens'[39m,
+    summary_short: [32m'This documentary about the Sicilian photographer Letizia Battaglia is short on the whens and the hows of her story.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-26 17:44:17'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/shooting-the-mafia-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Shooting the Mafia'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/22/arts/00shootingthemafiapix/00shootingthemafiapix-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Waves'[39m,
+    mpaa_rating: [32m'R'[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'Manohla Dargis'[39m,
+    headline: [32m'‘Waves’ Review: The Shattering Ebb and Flow of Family Life'[39m,
+    summary_short: [32m'The writer-director Trey Edward Shults tells the story of a family held together by love and nearly undone by tragedy.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-26 17:44:16'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/waves-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Waves'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/14/arts/14waves1/14waves1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Atlantics'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘Atlantics’ Review: Haunted by Ghosts and Injustice in Senegal'[39m,
+    summary_short: [32m'Mati Diop’s Cannes prize winner is a potent mix of genres and moods.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-29'[39m,
+    date_updated: [32m'2019-11-26 17:44:15'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/atlantics-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Atlantics'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/14/arts/14ATLANTICS-1/merlin_164171868_ea0ff558-c936-41c5-9178-c542bd98697e-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Ford v Ferrari'[39m,
+    mpaa_rating: [32m'PG-13'[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘Ford v Ferrari’ Review: It’s a Gas'[39m,
+    summary_short: [32m'Matt Damon and Christian Bale star in James Mangold’s look back at the golden age of auto racing.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-26 17:44:14'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/ford-v-ferrari-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Ford v Ferrari'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/14/arts/14ford-ferrari1/14ford-ferrari1-mediumThreeByTwo210-v2.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'The Hottest August'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'Glenn Kenny'[39m,
+    headline: [32m'‘The Hottest August’ Review: Ordinary New Yorkers Facing Extreme Heat'[39m,
+    summary_short: [32m'The director draws on texts from Zadie Smith, Annie Dillard and Karl Marx for narration, but ospreys and a solar eclipse take more of a center stage.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-26 17:44:14'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/the-hottest-august-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of The Hottest August'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/15/arts/14hottestaugust/14hottestaugust-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Recorder: The Marion Stokes Project'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'Glenn Kenny'[39m,
+    headline: [32m'‘Recorder: The Marion Stokes Project’ Review: A VCR Obsession'[39m,
+    summary_short: [32m'Matt Wolf’s documentary shows how one woman captured history by recording television news. The results are compelling.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-26 17:44:13'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/recorder-the-marion-stokes-project-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Recorder: The Marion Stokes Project'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/15/arts/14record/14record-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'To Kid or Not to Kid'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Jeannette Catsoulis'[39m,
+    headline: [32m'‘To Kid or Not to Kid’ Review: Maybe, Baby'[39m,
+    summary_short: [32m'Maxine Trump’s deeply personal documentary explores the pros and cons of motherhood with candor and empathy.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-22 17:44:01'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/to-kid-or-not-to-kid-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of To Kid or Not to Kid'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/12/arts/tokid1/tokid1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Ernie & Joe: Crisis Cops'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Kristen Yoonsoo Kim'[39m,
+    headline: [32m'‘Ernie & Joe: Crisis Cops’ Review: Keeping Calm Is Their Secret Weapon'[39m,
+    summary_short: [32m'Jenifer McShane’s documentary introduces an empathetic method for policing.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-22 17:44:01'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/ernie-and-joe-crisis-cops-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Ernie & Joe: Crisis Cops'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/15/arts/15ERNIEANDJOE/merlin_164172612_ed123d02-c467-4f8d-a182-fcbb896c49af-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  }
+]
+[
+  {
+    display_title: [32m'63 Up'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'Manohla Dargis'[39m,
+    headline: [32m'‘63 Up’ Review: Time Keeps on Slippin’, Slippin’, Slippin’'[39m,
+    summary_short: [32m'Michael Apted revisits the people who have grown up, and grown older, in this long-running, landmark documentary series.'[39m,
+    publication_date: [32m'2019-11-26'[39m,
+    opening_date: [32m'2019-11-27'[39m,
+    date_updated: [32m'2019-11-26 20:04:03'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/26/movies/63-up-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of 63 Up'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/27/arts/63up1/63up1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Queen & Slim'[39m,
+    mpaa_rating: [32m'R'[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘Queen & Slim’ Review: Love on the Run'[39m,
+    summary_short: [32m'Daniel Kaluuya and Jodie Turner-Smith star in Melina Matsoukas’s dreamy but intense outlaw romance.'[39m,
+    publication_date: [32m'2019-11-26'[39m,
+    opening_date: [32m'2019-11-27'[39m,
+    date_updated: [32m'2019-11-26 17:46:03'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/26/movies/queen-and-slim-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Queen & Slim'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/26/arts/26QUEENANDSLIM/26QUEENANDSLIM-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'The Two Popes'[39m,
+    mpaa_rating: [32m'PG-13'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘The Two Popes’ Review: Double Act at the Vatican'[39m,
+    summary_short: [32m'Jonathan Pryce (as the future Pope Francis) and Anthony Hopkins (as the outgoing Pope Benedict) star in a study of faith, friendship and power.'[39m,
+    publication_date: [32m'2019-11-26'[39m,
+    opening_date: [32m'2019-12-20'[39m,
+    date_updated: [32m'2019-11-26 16:26:03'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/26/movies/the-two-popes-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of The Two Popes'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/26/arts/26twopopes1/merlin_164868870_dff825f4-c0c9-4de0-8c97-3e1eefbff8cb-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Varda by Agnès'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘Varda by Agnès’ Review: A Final Visit With an Irreplaceable Filmmaker'[39m,
+    summary_short: [32m'In her last film, Agnès Varda sums up a six-decade career.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-20'[39m,
+    date_updated: [32m'2019-11-26 17:44:20'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/varda-by-agnes-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Varda by Agnès'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/22/arts/22AGNES-1/22AGNES-1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Hala'[39m,
+    mpaa_rating: [32m'R'[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'Jeannette Catsoulis'[39m,
+    headline: [32m'‘Hala’ Review: Girl, Disrupted'[39m,
+    summary_short: [32m'Geraldine Viswanathan is astonishingly resonant as a teenager testing the boundaries of faith, tradition and sexuality.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-12-06'[39m,
+    date_updated: [32m'2019-11-26 17:44:18'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/hala-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Hala'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/22/arts/hala1/merlin_164637675_c9e208fa-99b3-4bda-ba60-00f0c7e435b3-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Dark Waters'[39m,
+    mpaa_rating: [32m'PG-13'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Manohla Dargis'[39m,
+    headline: [32m'‘Dark Waters’ Review: The Killing Fields of West Virginia'[39m,
+    summary_short: [32m'In Todd Haynes’s latest, Mark Ruffalo plays a corporate defense lawyer who switches sides to defend a poisoned community.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-22'[39m,
+    date_updated: [32m'2019-11-26 17:44:20'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/dark-waters-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Dark Waters'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/22/arts/00dark-waters-1/00dark-waters-1-mediumThreeByTwo210-v2.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Bikram: Yogi, Guru, Predator'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Bilal Qureshi'[39m,
+    headline: [32m'‘Bikram: Yogi, Guru, Predator’ Review: The Toxic Man behind Yoga’s Hottest Trend'[39m,
+    summary_short: [32m'This unsettling expose about the founder of Bikram yoga is the opposite of a meditative reprieve.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-20'[39m,
+    date_updated: [32m'2019-11-21 19:10:02'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/bikram-yogi-guru-predator-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Bikram: Yogi, Guru, Predator'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/21/arts/21bikram/21bikram-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Frozen II'[39m,
+    mpaa_rating: [32m'PG'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Manohla Dargis'[39m,
+    headline: [32m'‘Frozen 2’ Review: The Cold Still Never Bothers Them'[39m,
+    summary_short: [32m'The sisters and sidekicks from “Frozen” reconvene for another adventure with storms of feeling and a new power ballad.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-22'[39m,
+    date_updated: [32m'2019-11-26 17:44:19'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/frozen-2-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Frozen II'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/20/arts/00frozen-1/00frozen-1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'A Beautiful Day In The Neighborhood'[39m,
+    mpaa_rating: [32m'PG'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘A Beautiful Day in the Neighborhood’ Review: You Are My Friend'[39m,
+    summary_short: [32m'Tom Hanks plays Mister Rogers, the beloved children’s television host, as he comes to the aid of a suffering magazine writer.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-22'[39m,
+    date_updated: [32m'2019-11-26 17:44:19'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/a-beautiful-day-in-the-neighborhood-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of A Beautiful Day In The Neighborhood'[39m
+    },
+    multimedia: [1mnull[22m
+  },
+  {
+    display_title: [32m'The Courier'[39m,
+    mpaa_rating: [32m'R'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Glenn Kenny'[39m,
+    headline: [32m'‘The Courier’ Review: Gary Oldman Plays Bad. The Movie Plays Worse.'[39m,
+    summary_short: [32m'This action thriller set in a parking garage with a female butt-kicking lead doesn’t even reach the level of watchable novelty.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-22'[39m,
+    date_updated: [32m'2019-11-21 12:04:03'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/the-courier-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of The Courier'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/21/arts/21courier/merlin_164638359_94134c6a-8225-403d-a88d-c42c0b8942f2-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m"Mr. Toilet: The World's #2 Man"[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Ben Kenigsberg'[39m,
+    headline: [32m'‘Mr. Toilet’ Review: Getting a Handle on the World’s Toilet Shortage'[39m,
+    summary_short: [32m'This profile of Jack Sim, an activist for toilet construction, is a more serious documentary than its title suggests.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-08'[39m,
+    date_updated: [32m'2019-11-26 17:44:18'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/mr-toilet-the-worlds-number-2-man-review.html'[39m,
+      suggested_link_text: [32m"Read the New York Times Review of Mr. Toilet: The World's #2 Man"[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/20/arts/mrtoilet1/mrtoilet1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'21 Bridges'[39m,
+    mpaa_rating: [32m'R'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Jeannette Catsoulis'[39m,
+    headline: [32m'‘21 Bridges’ Review: Catch Us if You Can'[39m,
+    summary_short: [32m'In this sturdy thriller, Chadwick Boseman plays a Manhattan detective on the hunt for two squirrelly cop killers.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-22'[39m,
+    date_updated: [32m'2019-11-26 17:44:18'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/21-bridges-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of 21 Bridges'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/19/arts/twenty1/twenty1-mediumThreeByTwo210-v2.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Shooting the Mafia'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Glenn Kenny'[39m,
+    headline: [32m'‘Shooting the Mafia’ Review: Crime Through a Watchful Lens'[39m,
+    summary_short: [32m'This documentary about the Sicilian photographer Letizia Battaglia is short on the whens and the hows of her story.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-26 17:44:17'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/shooting-the-mafia-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Shooting the Mafia'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/22/arts/00shootingthemafiapix/00shootingthemafiapix-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Waves'[39m,
+    mpaa_rating: [32m'R'[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'Manohla Dargis'[39m,
+    headline: [32m'‘Waves’ Review: The Shattering Ebb and Flow of Family Life'[39m,
+    summary_short: [32m'The writer-director Trey Edward Shults tells the story of a family held together by love and nearly undone by tragedy.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-26 17:44:16'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/waves-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Waves'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/14/arts/14waves1/14waves1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Atlantics'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘Atlantics’ Review: Haunted by Ghosts and Injustice in Senegal'[39m,
+    summary_short: [32m'Mati Diop’s Cannes prize winner is a potent mix of genres and moods.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-29'[39m,
+    date_updated: [32m'2019-11-26 17:44:15'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/atlantics-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Atlantics'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/14/arts/14ATLANTICS-1/merlin_164171868_ea0ff558-c936-41c5-9178-c542bd98697e-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Ford v Ferrari'[39m,
+    mpaa_rating: [32m'PG-13'[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘Ford v Ferrari’ Review: It’s a Gas'[39m,
+    summary_short: [32m'Matt Damon and Christian Bale star in James Mangold’s look back at the golden age of auto racing.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-26 17:44:14'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/ford-v-ferrari-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Ford v Ferrari'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/14/arts/14ford-ferrari1/14ford-ferrari1-mediumThreeByTwo210-v2.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'The Hottest August'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'Glenn Kenny'[39m,
+    headline: [32m'‘The Hottest August’ Review: Ordinary New Yorkers Facing Extreme Heat'[39m,
+    summary_short: [32m'The director draws on texts from Zadie Smith, Annie Dillard and Karl Marx for narration, but ospreys and a solar eclipse take more of a center stage.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-26 17:44:14'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/the-hottest-august-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of The Hottest August'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/15/arts/14hottestaugust/14hottestaugust-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Recorder: The Marion Stokes Project'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'Glenn Kenny'[39m,
+    headline: [32m'‘Recorder: The Marion Stokes Project’ Review: A VCR Obsession'[39m,
+    summary_short: [32m'Matt Wolf’s documentary shows how one woman captured history by recording television news. The results are compelling.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-26 17:44:13'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/recorder-the-marion-stokes-project-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Recorder: The Marion Stokes Project'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/15/arts/14record/14record-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'To Kid or Not to Kid'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Jeannette Catsoulis'[39m,
+    headline: [32m'‘To Kid or Not to Kid’ Review: Maybe, Baby'[39m,
+    summary_short: [32m'Maxine Trump’s deeply personal documentary explores the pros and cons of motherhood with candor and empathy.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-22 17:44:01'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/to-kid-or-not-to-kid-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of To Kid or Not to Kid'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/12/arts/tokid1/tokid1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Ernie & Joe: Crisis Cops'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Kristen Yoonsoo Kim'[39m,
+    headline: [32m'‘Ernie & Joe: Crisis Cops’ Review: Keeping Calm Is Their Secret Weapon'[39m,
+    summary_short: [32m'Jenifer McShane’s documentary introduces an empathetic method for policing.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-22 17:44:01'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/ernie-and-joe-crisis-cops-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Ernie & Joe: Crisis Cops'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/15/arts/15ERNIEANDJOE/merlin_164172612_ed123d02-c467-4f8d-a182-fcbb896c49af-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  }
+]
+[
+  {
+    display_title: [32m'63 Up'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'Manohla Dargis'[39m,
+    headline: [32m'‘63 Up’ Review: Time Keeps on Slippin’, Slippin’, Slippin’'[39m,
+    summary_short: [32m'Michael Apted revisits the people who have grown up, and grown older, in this long-running, landmark documentary series.'[39m,
+    publication_date: [32m'2019-11-26'[39m,
+    opening_date: [32m'2019-11-27'[39m,
+    date_updated: [32m'2019-11-26 20:04:03'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/26/movies/63-up-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of 63 Up'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/27/arts/63up1/63up1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Queen & Slim'[39m,
+    mpaa_rating: [32m'R'[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘Queen & Slim’ Review: Love on the Run'[39m,
+    summary_short: [32m'Daniel Kaluuya and Jodie Turner-Smith star in Melina Matsoukas’s dreamy but intense outlaw romance.'[39m,
+    publication_date: [32m'2019-11-26'[39m,
+    opening_date: [32m'2019-11-27'[39m,
+    date_updated: [32m'2019-11-26 17:46:03'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/26/movies/queen-and-slim-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Queen & Slim'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/26/arts/26QUEENANDSLIM/26QUEENANDSLIM-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'The Two Popes'[39m,
+    mpaa_rating: [32m'PG-13'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘The Two Popes’ Review: Double Act at the Vatican'[39m,
+    summary_short: [32m'Jonathan Pryce (as the future Pope Francis) and Anthony Hopkins (as the outgoing Pope Benedict) star in a study of faith, friendship and power.'[39m,
+    publication_date: [32m'2019-11-26'[39m,
+    opening_date: [32m'2019-12-20'[39m,
+    date_updated: [32m'2019-11-26 16:26:03'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/26/movies/the-two-popes-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of The Two Popes'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/26/arts/26twopopes1/merlin_164868870_dff825f4-c0c9-4de0-8c97-3e1eefbff8cb-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Varda by Agnès'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘Varda by Agnès’ Review: A Final Visit With an Irreplaceable Filmmaker'[39m,
+    summary_short: [32m'In her last film, Agnès Varda sums up a six-decade career.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-20'[39m,
+    date_updated: [32m'2019-11-26 17:44:20'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/varda-by-agnes-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Varda by Agnès'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/22/arts/22AGNES-1/22AGNES-1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Hala'[39m,
+    mpaa_rating: [32m'R'[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'Jeannette Catsoulis'[39m,
+    headline: [32m'‘Hala’ Review: Girl, Disrupted'[39m,
+    summary_short: [32m'Geraldine Viswanathan is astonishingly resonant as a teenager testing the boundaries of faith, tradition and sexuality.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-12-06'[39m,
+    date_updated: [32m'2019-11-26 17:44:18'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/hala-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Hala'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/22/arts/hala1/merlin_164637675_c9e208fa-99b3-4bda-ba60-00f0c7e435b3-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Dark Waters'[39m,
+    mpaa_rating: [32m'PG-13'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Manohla Dargis'[39m,
+    headline: [32m'‘Dark Waters’ Review: The Killing Fields of West Virginia'[39m,
+    summary_short: [32m'In Todd Haynes’s latest, Mark Ruffalo plays a corporate defense lawyer who switches sides to defend a poisoned community.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-22'[39m,
+    date_updated: [32m'2019-11-26 17:44:20'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/dark-waters-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Dark Waters'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/22/arts/00dark-waters-1/00dark-waters-1-mediumThreeByTwo210-v2.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Bikram: Yogi, Guru, Predator'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Bilal Qureshi'[39m,
+    headline: [32m'‘Bikram: Yogi, Guru, Predator’ Review: The Toxic Man behind Yoga’s Hottest Trend'[39m,
+    summary_short: [32m'This unsettling expose about the founder of Bikram yoga is the opposite of a meditative reprieve.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-20'[39m,
+    date_updated: [32m'2019-11-21 19:10:02'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/bikram-yogi-guru-predator-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Bikram: Yogi, Guru, Predator'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/21/arts/21bikram/21bikram-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Frozen II'[39m,
+    mpaa_rating: [32m'PG'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Manohla Dargis'[39m,
+    headline: [32m'‘Frozen 2’ Review: The Cold Still Never Bothers Them'[39m,
+    summary_short: [32m'The sisters and sidekicks from “Frozen” reconvene for another adventure with storms of feeling and a new power ballad.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-22'[39m,
+    date_updated: [32m'2019-11-26 17:44:19'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/frozen-2-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Frozen II'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/20/arts/00frozen-1/00frozen-1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'A Beautiful Day In The Neighborhood'[39m,
+    mpaa_rating: [32m'PG'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘A Beautiful Day in the Neighborhood’ Review: You Are My Friend'[39m,
+    summary_short: [32m'Tom Hanks plays Mister Rogers, the beloved children’s television host, as he comes to the aid of a suffering magazine writer.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-22'[39m,
+    date_updated: [32m'2019-11-26 17:44:19'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/a-beautiful-day-in-the-neighborhood-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of A Beautiful Day In The Neighborhood'[39m
+    },
+    multimedia: [1mnull[22m
+  },
+  {
+    display_title: [32m'The Courier'[39m,
+    mpaa_rating: [32m'R'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Glenn Kenny'[39m,
+    headline: [32m'‘The Courier’ Review: Gary Oldman Plays Bad. The Movie Plays Worse.'[39m,
+    summary_short: [32m'This action thriller set in a parking garage with a female butt-kicking lead doesn’t even reach the level of watchable novelty.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-22'[39m,
+    date_updated: [32m'2019-11-21 12:04:03'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/the-courier-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of The Courier'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/21/arts/21courier/merlin_164638359_94134c6a-8225-403d-a88d-c42c0b8942f2-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m"Mr. Toilet: The World's #2 Man"[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Ben Kenigsberg'[39m,
+    headline: [32m'‘Mr. Toilet’ Review: Getting a Handle on the World’s Toilet Shortage'[39m,
+    summary_short: [32m'This profile of Jack Sim, an activist for toilet construction, is a more serious documentary than its title suggests.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-08'[39m,
+    date_updated: [32m'2019-11-26 17:44:18'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/mr-toilet-the-worlds-number-2-man-review.html'[39m,
+      suggested_link_text: [32m"Read the New York Times Review of Mr. Toilet: The World's #2 Man"[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/20/arts/mrtoilet1/mrtoilet1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'21 Bridges'[39m,
+    mpaa_rating: [32m'R'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Jeannette Catsoulis'[39m,
+    headline: [32m'‘21 Bridges’ Review: Catch Us if You Can'[39m,
+    summary_short: [32m'In this sturdy thriller, Chadwick Boseman plays a Manhattan detective on the hunt for two squirrelly cop killers.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-22'[39m,
+    date_updated: [32m'2019-11-26 17:44:18'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/21-bridges-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of 21 Bridges'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/19/arts/twenty1/twenty1-mediumThreeByTwo210-v2.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Shooting the Mafia'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Glenn Kenny'[39m,
+    headline: [32m'‘Shooting the Mafia’ Review: Crime Through a Watchful Lens'[39m,
+    summary_short: [32m'This documentary about the Sicilian photographer Letizia Battaglia is short on the whens and the hows of her story.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-26 17:44:17'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/shooting-the-mafia-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Shooting the Mafia'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/22/arts/00shootingthemafiapix/00shootingthemafiapix-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Waves'[39m,
+    mpaa_rating: [32m'R'[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'Manohla Dargis'[39m,
+    headline: [32m'‘Waves’ Review: The Shattering Ebb and Flow of Family Life'[39m,
+    summary_short: [32m'The writer-director Trey Edward Shults tells the story of a family held together by love and nearly undone by tragedy.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-26 17:44:16'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/waves-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Waves'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/14/arts/14waves1/14waves1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Atlantics'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘Atlantics’ Review: Haunted by Ghosts and Injustice in Senegal'[39m,
+    summary_short: [32m'Mati Diop’s Cannes prize winner is a potent mix of genres and moods.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-29'[39m,
+    date_updated: [32m'2019-11-26 17:44:15'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/atlantics-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Atlantics'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/14/arts/14ATLANTICS-1/merlin_164171868_ea0ff558-c936-41c5-9178-c542bd98697e-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Ford v Ferrari'[39m,
+    mpaa_rating: [32m'PG-13'[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘Ford v Ferrari’ Review: It’s a Gas'[39m,
+    summary_short: [32m'Matt Damon and Christian Bale star in James Mangold’s look back at the golden age of auto racing.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-26 17:44:14'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/ford-v-ferrari-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Ford v Ferrari'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/14/arts/14ford-ferrari1/14ford-ferrari1-mediumThreeByTwo210-v2.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'The Hottest August'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'Glenn Kenny'[39m,
+    headline: [32m'‘The Hottest August’ Review: Ordinary New Yorkers Facing Extreme Heat'[39m,
+    summary_short: [32m'The director draws on texts from Zadie Smith, Annie Dillard and Karl Marx for narration, but ospreys and a solar eclipse take more of a center stage.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-26 17:44:14'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/the-hottest-august-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of The Hottest August'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/15/arts/14hottestaugust/14hottestaugust-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Recorder: The Marion Stokes Project'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'Glenn Kenny'[39m,
+    headline: [32m'‘Recorder: The Marion Stokes Project’ Review: A VCR Obsession'[39m,
+    summary_short: [32m'Matt Wolf’s documentary shows how one woman captured history by recording television news. The results are compelling.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-26 17:44:13'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/recorder-the-marion-stokes-project-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Recorder: The Marion Stokes Project'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/15/arts/14record/14record-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'To Kid or Not to Kid'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Jeannette Catsoulis'[39m,
+    headline: [32m'‘To Kid or Not to Kid’ Review: Maybe, Baby'[39m,
+    summary_short: [32m'Maxine Trump’s deeply personal documentary explores the pros and cons of motherhood with candor and empathy.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-22 17:44:01'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/to-kid-or-not-to-kid-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of To Kid or Not to Kid'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/12/arts/tokid1/tokid1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Ernie & Joe: Crisis Cops'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Kristen Yoonsoo Kim'[39m,
+    headline: [32m'‘Ernie & Joe: Crisis Cops’ Review: Keeping Calm Is Their Secret Weapon'[39m,
+    summary_short: [32m'Jenifer McShane’s documentary introduces an empathetic method for policing.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-22 17:44:01'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/ernie-and-joe-crisis-cops-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Ernie & Joe: Crisis Cops'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/15/arts/15ERNIEANDJOE/merlin_164172612_ed123d02-c467-4f8d-a182-fcbb896c49af-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  }
+]
+[
+  {
+    display_title: [32m'63 Up'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'Manohla Dargis'[39m,
+    headline: [32m'‘63 Up’ Review: Time Keeps on Slippin’, Slippin’, Slippin’'[39m,
+    summary_short: [32m'Michael Apted revisits the people who have grown up, and grown older, in this long-running, landmark documentary series.'[39m,
+    publication_date: [32m'2019-11-26'[39m,
+    opening_date: [32m'2019-11-27'[39m,
+    date_updated: [32m'2019-11-26 20:04:03'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/26/movies/63-up-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of 63 Up'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/27/arts/63up1/63up1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Queen & Slim'[39m,
+    mpaa_rating: [32m'R'[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘Queen & Slim’ Review: Love on the Run'[39m,
+    summary_short: [32m'Daniel Kaluuya and Jodie Turner-Smith star in Melina Matsoukas’s dreamy but intense outlaw romance.'[39m,
+    publication_date: [32m'2019-11-26'[39m,
+    opening_date: [32m'2019-11-27'[39m,
+    date_updated: [32m'2019-11-26 17:46:03'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/26/movies/queen-and-slim-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Queen & Slim'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/26/arts/26QUEENANDSLIM/26QUEENANDSLIM-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'The Two Popes'[39m,
+    mpaa_rating: [32m'PG-13'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘The Two Popes’ Review: Double Act at the Vatican'[39m,
+    summary_short: [32m'Jonathan Pryce (as the future Pope Francis) and Anthony Hopkins (as the outgoing Pope Benedict) star in a study of faith, friendship and power.'[39m,
+    publication_date: [32m'2019-11-26'[39m,
+    opening_date: [32m'2019-12-20'[39m,
+    date_updated: [32m'2019-11-26 16:26:03'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/26/movies/the-two-popes-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of The Two Popes'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/26/arts/26twopopes1/merlin_164868870_dff825f4-c0c9-4de0-8c97-3e1eefbff8cb-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Varda by Agnès'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘Varda by Agnès’ Review: A Final Visit With an Irreplaceable Filmmaker'[39m,
+    summary_short: [32m'In her last film, Agnès Varda sums up a six-decade career.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-20'[39m,
+    date_updated: [32m'2019-11-26 17:44:20'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/varda-by-agnes-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Varda by Agnès'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/22/arts/22AGNES-1/22AGNES-1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Hala'[39m,
+    mpaa_rating: [32m'R'[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'Jeannette Catsoulis'[39m,
+    headline: [32m'‘Hala’ Review: Girl, Disrupted'[39m,
+    summary_short: [32m'Geraldine Viswanathan is astonishingly resonant as a teenager testing the boundaries of faith, tradition and sexuality.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-12-06'[39m,
+    date_updated: [32m'2019-11-26 17:44:18'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/hala-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Hala'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/22/arts/hala1/merlin_164637675_c9e208fa-99b3-4bda-ba60-00f0c7e435b3-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Dark Waters'[39m,
+    mpaa_rating: [32m'PG-13'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Manohla Dargis'[39m,
+    headline: [32m'‘Dark Waters’ Review: The Killing Fields of West Virginia'[39m,
+    summary_short: [32m'In Todd Haynes’s latest, Mark Ruffalo plays a corporate defense lawyer who switches sides to defend a poisoned community.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-22'[39m,
+    date_updated: [32m'2019-11-26 17:44:20'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/dark-waters-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Dark Waters'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/22/arts/00dark-waters-1/00dark-waters-1-mediumThreeByTwo210-v2.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Bikram: Yogi, Guru, Predator'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Bilal Qureshi'[39m,
+    headline: [32m'‘Bikram: Yogi, Guru, Predator’ Review: The Toxic Man behind Yoga’s Hottest Trend'[39m,
+    summary_short: [32m'This unsettling expose about the founder of Bikram yoga is the opposite of a meditative reprieve.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-20'[39m,
+    date_updated: [32m'2019-11-21 19:10:02'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/bikram-yogi-guru-predator-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Bikram: Yogi, Guru, Predator'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/21/arts/21bikram/21bikram-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Frozen II'[39m,
+    mpaa_rating: [32m'PG'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Manohla Dargis'[39m,
+    headline: [32m'‘Frozen 2’ Review: The Cold Still Never Bothers Them'[39m,
+    summary_short: [32m'The sisters and sidekicks from “Frozen” reconvene for another adventure with storms of feeling and a new power ballad.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-22'[39m,
+    date_updated: [32m'2019-11-26 17:44:19'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/frozen-2-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Frozen II'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/20/arts/00frozen-1/00frozen-1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'A Beautiful Day In The Neighborhood'[39m,
+    mpaa_rating: [32m'PG'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘A Beautiful Day in the Neighborhood’ Review: You Are My Friend'[39m,
+    summary_short: [32m'Tom Hanks plays Mister Rogers, the beloved children’s television host, as he comes to the aid of a suffering magazine writer.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-22'[39m,
+    date_updated: [32m'2019-11-26 17:44:19'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/a-beautiful-day-in-the-neighborhood-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of A Beautiful Day In The Neighborhood'[39m
+    },
+    multimedia: [1mnull[22m
+  },
+  {
+    display_title: [32m'The Courier'[39m,
+    mpaa_rating: [32m'R'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Glenn Kenny'[39m,
+    headline: [32m'‘The Courier’ Review: Gary Oldman Plays Bad. The Movie Plays Worse.'[39m,
+    summary_short: [32m'This action thriller set in a parking garage with a female butt-kicking lead doesn’t even reach the level of watchable novelty.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-22'[39m,
+    date_updated: [32m'2019-11-21 12:04:03'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/the-courier-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of The Courier'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/21/arts/21courier/merlin_164638359_94134c6a-8225-403d-a88d-c42c0b8942f2-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m"Mr. Toilet: The World's #2 Man"[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Ben Kenigsberg'[39m,
+    headline: [32m'‘Mr. Toilet’ Review: Getting a Handle on the World’s Toilet Shortage'[39m,
+    summary_short: [32m'This profile of Jack Sim, an activist for toilet construction, is a more serious documentary than its title suggests.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-08'[39m,
+    date_updated: [32m'2019-11-26 17:44:18'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/mr-toilet-the-worlds-number-2-man-review.html'[39m,
+      suggested_link_text: [32m"Read the New York Times Review of Mr. Toilet: The World's #2 Man"[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/20/arts/mrtoilet1/mrtoilet1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'21 Bridges'[39m,
+    mpaa_rating: [32m'R'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Jeannette Catsoulis'[39m,
+    headline: [32m'‘21 Bridges’ Review: Catch Us if You Can'[39m,
+    summary_short: [32m'In this sturdy thriller, Chadwick Boseman plays a Manhattan detective on the hunt for two squirrelly cop killers.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-22'[39m,
+    date_updated: [32m'2019-11-26 17:44:18'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/21-bridges-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of 21 Bridges'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/19/arts/twenty1/twenty1-mediumThreeByTwo210-v2.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Shooting the Mafia'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Glenn Kenny'[39m,
+    headline: [32m'‘Shooting the Mafia’ Review: Crime Through a Watchful Lens'[39m,
+    summary_short: [32m'This documentary about the Sicilian photographer Letizia Battaglia is short on the whens and the hows of her story.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-26 17:44:17'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/shooting-the-mafia-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Shooting the Mafia'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/22/arts/00shootingthemafiapix/00shootingthemafiapix-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Waves'[39m,
+    mpaa_rating: [32m'R'[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'Manohla Dargis'[39m,
+    headline: [32m'‘Waves’ Review: The Shattering Ebb and Flow of Family Life'[39m,
+    summary_short: [32m'The writer-director Trey Edward Shults tells the story of a family held together by love and nearly undone by tragedy.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-26 17:44:16'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/waves-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Waves'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/14/arts/14waves1/14waves1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Atlantics'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘Atlantics’ Review: Haunted by Ghosts and Injustice in Senegal'[39m,
+    summary_short: [32m'Mati Diop’s Cannes prize winner is a potent mix of genres and moods.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-29'[39m,
+    date_updated: [32m'2019-11-26 17:44:15'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/atlantics-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Atlantics'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/14/arts/14ATLANTICS-1/merlin_164171868_ea0ff558-c936-41c5-9178-c542bd98697e-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Ford v Ferrari'[39m,
+    mpaa_rating: [32m'PG-13'[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘Ford v Ferrari’ Review: It’s a Gas'[39m,
+    summary_short: [32m'Matt Damon and Christian Bale star in James Mangold’s look back at the golden age of auto racing.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-26 17:44:14'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/ford-v-ferrari-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Ford v Ferrari'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/14/arts/14ford-ferrari1/14ford-ferrari1-mediumThreeByTwo210-v2.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'The Hottest August'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'Glenn Kenny'[39m,
+    headline: [32m'‘The Hottest August’ Review: Ordinary New Yorkers Facing Extreme Heat'[39m,
+    summary_short: [32m'The director draws on texts from Zadie Smith, Annie Dillard and Karl Marx for narration, but ospreys and a solar eclipse take more of a center stage.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-26 17:44:14'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/the-hottest-august-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of The Hottest August'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/15/arts/14hottestaugust/14hottestaugust-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Recorder: The Marion Stokes Project'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'Glenn Kenny'[39m,
+    headline: [32m'‘Recorder: The Marion Stokes Project’ Review: A VCR Obsession'[39m,
+    summary_short: [32m'Matt Wolf’s documentary shows how one woman captured history by recording television news. The results are compelling.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-26 17:44:13'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/recorder-the-marion-stokes-project-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Recorder: The Marion Stokes Project'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/15/arts/14record/14record-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'To Kid or Not to Kid'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Jeannette Catsoulis'[39m,
+    headline: [32m'‘To Kid or Not to Kid’ Review: Maybe, Baby'[39m,
+    summary_short: [32m'Maxine Trump’s deeply personal documentary explores the pros and cons of motherhood with candor and empathy.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-22 17:44:01'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/to-kid-or-not-to-kid-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of To Kid or Not to Kid'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/12/arts/tokid1/tokid1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Ernie & Joe: Crisis Cops'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Kristen Yoonsoo Kim'[39m,
+    headline: [32m'‘Ernie & Joe: Crisis Cops’ Review: Keeping Calm Is Their Secret Weapon'[39m,
+    summary_short: [32m'Jenifer McShane’s documentary introduces an empathetic method for policing.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-22 17:44:01'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/ernie-and-joe-crisis-cops-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Ernie & Joe: Crisis Cops'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/15/arts/15ERNIEANDJOE/merlin_164172612_ed123d02-c467-4f8d-a182-fcbb896c49af-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  }
+]
+[
+  {
+    display_title: [32m'63 Up'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'Manohla Dargis'[39m,
+    headline: [32m'‘63 Up’ Review: Time Keeps on Slippin’, Slippin’, Slippin’'[39m,
+    summary_short: [32m'Michael Apted revisits the people who have grown up, and grown older, in this long-running, landmark documentary series.'[39m,
+    publication_date: [32m'2019-11-26'[39m,
+    opening_date: [32m'2019-11-27'[39m,
+    date_updated: [32m'2019-11-26 20:04:03'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/26/movies/63-up-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of 63 Up'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/27/arts/63up1/63up1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Queen & Slim'[39m,
+    mpaa_rating: [32m'R'[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘Queen & Slim’ Review: Love on the Run'[39m,
+    summary_short: [32m'Daniel Kaluuya and Jodie Turner-Smith star in Melina Matsoukas’s dreamy but intense outlaw romance.'[39m,
+    publication_date: [32m'2019-11-26'[39m,
+    opening_date: [32m'2019-11-27'[39m,
+    date_updated: [32m'2019-11-26 17:46:03'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/26/movies/queen-and-slim-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Queen & Slim'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/26/arts/26QUEENANDSLIM/26QUEENANDSLIM-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'The Two Popes'[39m,
+    mpaa_rating: [32m'PG-13'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘The Two Popes’ Review: Double Act at the Vatican'[39m,
+    summary_short: [32m'Jonathan Pryce (as the future Pope Francis) and Anthony Hopkins (as the outgoing Pope Benedict) star in a study of faith, friendship and power.'[39m,
+    publication_date: [32m'2019-11-26'[39m,
+    opening_date: [32m'2019-12-20'[39m,
+    date_updated: [32m'2019-11-26 16:26:03'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/26/movies/the-two-popes-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of The Two Popes'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/26/arts/26twopopes1/merlin_164868870_dff825f4-c0c9-4de0-8c97-3e1eefbff8cb-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Varda by Agnès'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘Varda by Agnès’ Review: A Final Visit With an Irreplaceable Filmmaker'[39m,
+    summary_short: [32m'In her last film, Agnès Varda sums up a six-decade career.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-20'[39m,
+    date_updated: [32m'2019-11-26 17:44:20'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/varda-by-agnes-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Varda by Agnès'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/22/arts/22AGNES-1/22AGNES-1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Hala'[39m,
+    mpaa_rating: [32m'R'[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'Jeannette Catsoulis'[39m,
+    headline: [32m'‘Hala’ Review: Girl, Disrupted'[39m,
+    summary_short: [32m'Geraldine Viswanathan is astonishingly resonant as a teenager testing the boundaries of faith, tradition and sexuality.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-12-06'[39m,
+    date_updated: [32m'2019-11-26 17:44:18'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/hala-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Hala'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/22/arts/hala1/merlin_164637675_c9e208fa-99b3-4bda-ba60-00f0c7e435b3-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Dark Waters'[39m,
+    mpaa_rating: [32m'PG-13'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Manohla Dargis'[39m,
+    headline: [32m'‘Dark Waters’ Review: The Killing Fields of West Virginia'[39m,
+    summary_short: [32m'In Todd Haynes’s latest, Mark Ruffalo plays a corporate defense lawyer who switches sides to defend a poisoned community.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-22'[39m,
+    date_updated: [32m'2019-11-26 17:44:20'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/dark-waters-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Dark Waters'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/22/arts/00dark-waters-1/00dark-waters-1-mediumThreeByTwo210-v2.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Bikram: Yogi, Guru, Predator'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Bilal Qureshi'[39m,
+    headline: [32m'‘Bikram: Yogi, Guru, Predator’ Review: The Toxic Man behind Yoga’s Hottest Trend'[39m,
+    summary_short: [32m'This unsettling expose about the founder of Bikram yoga is the opposite of a meditative reprieve.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-20'[39m,
+    date_updated: [32m'2019-11-21 19:10:02'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/bikram-yogi-guru-predator-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Bikram: Yogi, Guru, Predator'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/21/arts/21bikram/21bikram-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Frozen II'[39m,
+    mpaa_rating: [32m'PG'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Manohla Dargis'[39m,
+    headline: [32m'‘Frozen 2’ Review: The Cold Still Never Bothers Them'[39m,
+    summary_short: [32m'The sisters and sidekicks from “Frozen” reconvene for another adventure with storms of feeling and a new power ballad.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-22'[39m,
+    date_updated: [32m'2019-11-26 17:44:19'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/frozen-2-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Frozen II'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/20/arts/00frozen-1/00frozen-1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'A Beautiful Day In The Neighborhood'[39m,
+    mpaa_rating: [32m'PG'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘A Beautiful Day in the Neighborhood’ Review: You Are My Friend'[39m,
+    summary_short: [32m'Tom Hanks plays Mister Rogers, the beloved children’s television host, as he comes to the aid of a suffering magazine writer.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-22'[39m,
+    date_updated: [32m'2019-11-26 17:44:19'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/a-beautiful-day-in-the-neighborhood-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of A Beautiful Day In The Neighborhood'[39m
+    },
+    multimedia: [1mnull[22m
+  },
+  {
+    display_title: [32m'The Courier'[39m,
+    mpaa_rating: [32m'R'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Glenn Kenny'[39m,
+    headline: [32m'‘The Courier’ Review: Gary Oldman Plays Bad. The Movie Plays Worse.'[39m,
+    summary_short: [32m'This action thriller set in a parking garage with a female butt-kicking lead doesn’t even reach the level of watchable novelty.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-22'[39m,
+    date_updated: [32m'2019-11-21 12:04:03'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/the-courier-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of The Courier'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/21/arts/21courier/merlin_164638359_94134c6a-8225-403d-a88d-c42c0b8942f2-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m"Mr. Toilet: The World's #2 Man"[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Ben Kenigsberg'[39m,
+    headline: [32m'‘Mr. Toilet’ Review: Getting a Handle on the World’s Toilet Shortage'[39m,
+    summary_short: [32m'This profile of Jack Sim, an activist for toilet construction, is a more serious documentary than its title suggests.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-08'[39m,
+    date_updated: [32m'2019-11-26 17:44:18'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/mr-toilet-the-worlds-number-2-man-review.html'[39m,
+      suggested_link_text: [32m"Read the New York Times Review of Mr. Toilet: The World's #2 Man"[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/20/arts/mrtoilet1/mrtoilet1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'21 Bridges'[39m,
+    mpaa_rating: [32m'R'[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Jeannette Catsoulis'[39m,
+    headline: [32m'‘21 Bridges’ Review: Catch Us if You Can'[39m,
+    summary_short: [32m'In this sturdy thriller, Chadwick Boseman plays a Manhattan detective on the hunt for two squirrelly cop killers.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-22'[39m,
+    date_updated: [32m'2019-11-26 17:44:18'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/21-bridges-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of 21 Bridges'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/19/arts/twenty1/twenty1-mediumThreeByTwo210-v2.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Shooting the Mafia'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Glenn Kenny'[39m,
+    headline: [32m'‘Shooting the Mafia’ Review: Crime Through a Watchful Lens'[39m,
+    summary_short: [32m'This documentary about the Sicilian photographer Letizia Battaglia is short on the whens and the hows of her story.'[39m,
+    publication_date: [32m'2019-11-21'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-26 17:44:17'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/21/movies/shooting-the-mafia-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Shooting the Mafia'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/22/arts/00shootingthemafiapix/00shootingthemafiapix-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Waves'[39m,
+    mpaa_rating: [32m'R'[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'Manohla Dargis'[39m,
+    headline: [32m'‘Waves’ Review: The Shattering Ebb and Flow of Family Life'[39m,
+    summary_short: [32m'The writer-director Trey Edward Shults tells the story of a family held together by love and nearly undone by tragedy.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-26 17:44:16'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/waves-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Waves'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/14/arts/14waves1/14waves1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Atlantics'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘Atlantics’ Review: Haunted by Ghosts and Injustice in Senegal'[39m,
+    summary_short: [32m'Mati Diop’s Cannes prize winner is a potent mix of genres and moods.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-29'[39m,
+    date_updated: [32m'2019-11-26 17:44:15'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/atlantics-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Atlantics'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/14/arts/14ATLANTICS-1/merlin_164171868_ea0ff558-c936-41c5-9178-c542bd98697e-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Ford v Ferrari'[39m,
+    mpaa_rating: [32m'PG-13'[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'A.O. Scott'[39m,
+    headline: [32m'‘Ford v Ferrari’ Review: It’s a Gas'[39m,
+    summary_short: [32m'Matt Damon and Christian Bale star in James Mangold’s look back at the golden age of auto racing.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-26 17:44:14'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/ford-v-ferrari-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Ford v Ferrari'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/14/arts/14ford-ferrari1/14ford-ferrari1-mediumThreeByTwo210-v2.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'The Hottest August'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'Glenn Kenny'[39m,
+    headline: [32m'‘The Hottest August’ Review: Ordinary New Yorkers Facing Extreme Heat'[39m,
+    summary_short: [32m'The director draws on texts from Zadie Smith, Annie Dillard and Karl Marx for narration, but ospreys and a solar eclipse take more of a center stage.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-26 17:44:14'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/the-hottest-august-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of The Hottest August'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/15/arts/14hottestaugust/14hottestaugust-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Recorder: The Marion Stokes Project'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m1[39m,
+    byline: [32m'Glenn Kenny'[39m,
+    headline: [32m'‘Recorder: The Marion Stokes Project’ Review: A VCR Obsession'[39m,
+    summary_short: [32m'Matt Wolf’s documentary shows how one woman captured history by recording television news. The results are compelling.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-26 17:44:13'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/recorder-the-marion-stokes-project-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Recorder: The Marion Stokes Project'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/15/arts/14record/14record-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'To Kid or Not to Kid'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Jeannette Catsoulis'[39m,
+    headline: [32m'‘To Kid or Not to Kid’ Review: Maybe, Baby'[39m,
+    summary_short: [32m'Maxine Trump’s deeply personal documentary explores the pros and cons of motherhood with candor and empathy.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-22 17:44:01'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/to-kid-or-not-to-kid-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of To Kid or Not to Kid'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/12/arts/tokid1/tokid1-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  },
+  {
+    display_title: [32m'Ernie & Joe: Crisis Cops'[39m,
+    mpaa_rating: [32m''[39m,
+    critics_pick: [33m0[39m,
+    byline: [32m'Kristen Yoonsoo Kim'[39m,
+    headline: [32m'‘Ernie & Joe: Crisis Cops’ Review: Keeping Calm Is Their Secret Weapon'[39m,
+    summary_short: [32m'Jenifer McShane’s documentary introduces an empathetic method for policing.'[39m,
+    publication_date: [32m'2019-11-14'[39m,
+    opening_date: [32m'2019-11-15'[39m,
+    date_updated: [32m'2019-11-22 17:44:01'[39m,
+    link: {
+      type: [32m'article'[39m,
+      url: [32m'http://www.nytimes.com/2019/11/14/movies/ernie-and-joe-crisis-cops-review.html'[39m,
+      suggested_link_text: [32m'Read the New York Times Review of Ernie & Joe: Crisis Cops'[39m
+    },
+    multimedia: {
+      type: [32m'mediumThreeByTwo210'[39m,
+      src: [32m'https://static01.nyt.com/images/2019/11/15/arts/15ERNIEANDJOE/merlin_164172612_ed123d02-c467-4f8d-a182-fcbb896c49af-mediumThreeByTwo210.jpg'[39m,
+      width: [33m210[39m,
+      height: [33m140[39m
+    }
+  }
+]
+bash: parse_git_branch: command not found
+]2;swdecker@Stevens-MacBook-Pro[[37;44;1m16:36:51[0m][0;31m [0;32mreact-container-components-lab-austin-web-091619
+[0;34m//[0;31m ♥ [0mexit
+
+Script done on Tue Nov 26 16:37:01 2019
